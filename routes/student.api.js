@@ -18,7 +18,7 @@ router.get("/", function (req, res, next) {
 
 /* GET students. */
 router.get("/:id", function (req, res, next) {
-  // const id = req.params.id;
+  const id = req.params.id;
   // console.log(params);
   let response;
   try {
